@@ -25,6 +25,7 @@ do
   ./libass_build.sh $i $BASEDIR 1 || exit 1
   ./lame_build.sh $i $BASEDIR 1 || exit 1
   ./libfdk-aac_build.sh $i $BASEDIR 1 || exit 1
+  ./libopus_build.sh $i $BASEDIR 1 || exit 1
   ./ffmpeg_build.sh $i $BASEDIR 0 || exit 1
 done
 
