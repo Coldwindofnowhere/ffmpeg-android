@@ -26,6 +26,7 @@ make clean
 --enable-libx264 \
 --enable-libfdk-aac \
 --enable-libopus \
+--enable-libvpx \
 --enable-libass \
 --enable-libfreetype \
 --enable-libfribidi \

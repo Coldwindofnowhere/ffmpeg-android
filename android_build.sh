@@ -23,6 +23,7 @@ do
   ./fribidi_build.sh $i $BASEDIR 1 || exit 1
   ./fontconfig_build.sh $i $BASEDIR 1 || exit 1
   ./libass_build.sh $i $BASEDIR 1 || exit 1
+  ./libvpx_build.sh $i $BASEDIR 1 || exit 1
   ./lame_build.sh $i $BASEDIR 1 || exit 1
   ./libfdk-aac_build.sh $i $BASEDIR 1 || exit 1
   ./libopus_build.sh $i $BASEDIR 1 || exit 1
