@@ -27,6 +27,8 @@ make clean
 --enable-libfdk-aac \
 --enable-libopus \
 --enable-libvpx \
+--enable-libvorbis \
+--enable-libtheora \
 --enable-libass \
 --enable-libfreetype \
 --enable-libfribidi \
