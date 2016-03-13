@@ -24,6 +24,7 @@ make clean
 --sysroot="$NDK_SYSROOT" \
 --enable-pic \
 --enable-libx264 \
+--enable-libfdk-aac \
 --enable-libass \
 --enable-libfreetype \
 --enable-libfribidi \
@@ -41,6 +42,7 @@ make clean
 --disable-doc \
 --disable-shared \
 --enable-static \
+--enable-nonfree \
 --pkg-config="${2}/ffmpeg-pkg-config" \
 --prefix="${2}/build/${1}" \
 --extra-cflags="-I${TOOLCHAIN_PREFIX}/include $CFLAGS" \
