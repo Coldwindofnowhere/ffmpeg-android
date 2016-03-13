@@ -15,7 +15,8 @@ autoreconf -ivf
   --enable-static \
   --disable-libxml2 \
   --prefix="${TOOLCHAIN_PREFIX}" \
-  --disable-iconv || exit 1
+  --disable-iconv \
+  --disable-docs || exit 1
 
 make -j${NUMBER_OF_CORES} install || exit 1
 
